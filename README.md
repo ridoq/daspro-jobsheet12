@@ -70,5 +70,6 @@
 2.  Tipe data nilai kembalian nya adalah *int*, karena fungsi mengembalikan total harga dalam bentuk angka bulat. Lalu dua parameter:
     -   int _pilihanMenu_ adalah nomor menu yang dipilih user (1 = kopi hitam, 2 = cappuccino, dst).
     -   int _jumlahPesanan_ adalah banyak item yang dipesan user untuk menu tersebut.
+3.  done✅
 
 ---
