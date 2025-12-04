@@ -45,5 +45,8 @@
 
 1.  Parameter digunakan untuk mengirim data dari luar fungsi ke dalam fungsi, supaya fungsi bisa bekerja berdasarkan nilai yang diberikan.
 2.  Karena _function Menu(parameter)_ membutuhkan informasi tambahan supaya outputnya personalisasi, jadi ketika _function Menu(parameter)_ dipanggil ouputnya akan _flexible_
+3.  Parameter dan variale mirip namun tidak sama:
+    -   parameter dideklarasikan di definisi fungsi, sedangkan variable dideklarasikan di dalam blok code(funsi, loop, dll)
+    -   fungsi parameter untuk menerima nilai dari luar fungsi, sedangkan variable untuk menyimpan data sementara di dalam program
 
 ---
