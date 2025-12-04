@@ -44,5 +44,6 @@
 ##  Jawaban
 
 1.  Parameter digunakan untuk mengirim data dari luar fungsi ke dalam fungsi, supaya fungsi bisa bekerja berdasarkan nilai yang diberikan.
+2.  Karena _function Menu(parameter)_ membutuhkan informasi tambahan supaya outputnya personalisasi, jadi ketika _function Menu(parameter)_ dipanggil ouputnya akan _flexible_
 
 ---
