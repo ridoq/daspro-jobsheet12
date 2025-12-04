@@ -28,3 +28,21 @@
     -   Karena tidak ada perintah lain, program berhenti.
     
 ---
+
+#   Percobaan 2 : Membuat Fungsi Dengan Parameter
+
+---
+
+##  Soal
+
+1.  Apakah kegunaan parameter di dalam fungsi?  
+2.  Jelaskan mengapa pada percobaan ini fungsi _Menu()_ menggunakan parameter _namaPelanggan_ dan _isMember_? 
+3.  Apakah parameter sama dengan variabel? Jelaskan. 
+
+---
+
+##  Jawaban
+
+1.  Parameter digunakan untuk mengirim data dari luar fungsi ke dalam fungsi, supaya fungsi bisa bekerja berdasarkan nilai yang diberikan.
+
+---
