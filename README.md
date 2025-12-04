@@ -18,5 +18,13 @@
 3.  ada beberapa keuntungan yaitu
     -   kode menjadi lebih rapi, karena setiap fitur diletakkan di _function_ terendiri
     -   menghindari duplikasi kode, misal jika ingin memakai kode suatu fitur lebih dari satu, tidak perlu menulis ulang kode tersebut, kita hanya perlu memanggil kembali _function_ yang berkaitan
+4.  berikut alurnya:
+    -   Program mulai dari eksekusi fungsi _main()_.
+    -   Di dalam _main()_, baris _Menu();_ dipanggil lalu dieksekusi.
+    -   Java berpindah sementara ke fungsi _Menu()_.
+    -   Semua _System.out.println()_ di dalam fungsi _Menu()_ dijalankan berurutan.
+    -   Setelah semua baris selesai, fungsi _Menu()_ selesai dijalankan.
+    -   Program kembali lagi ke _main()_ melanjutkan baris setelah pemanggilan _Menu()_.
+    -   Karena tidak ada perintah lain, program berhenti.
     
 ---
