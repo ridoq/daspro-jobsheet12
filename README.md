@@ -67,5 +67,8 @@
 ##  Jawaban
 
 1.  Fungsi butuh nilai kembalian (return value) kalau fungsi harus menghasilkan suatu nilai dan nilai itu mau dipake lagi di luar fungsi, contohnya adalah fungsi _hitungTotalharga(parameter)_. Lalu fungsi tidak perlu return value (void) kalau fungsi cuma melakukan aksi (misal: print tampilan), bukan menghitung sesuatu, contoh adalah fungsi _Menu()_.
+2.  Tipe data nilai kembalian nya adalah *int*, karena fungsi mengembalikan total harga dalam bentuk angka bulat. Lalu dua parameter:
+    -   int _pilihanMenu_ adalah nomor menu yang dipilih user (1 = kopi hitam, 2 = cappuccino, dst).
+    -   int _jumlahPesanan_ adalah banyak item yang dipesan user untuk menu tersebut.
 
 ---
