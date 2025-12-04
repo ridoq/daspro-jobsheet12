@@ -15,5 +15,8 @@
 
 1.  Tidak. Fungsi tanpa parameter tidak harus bertipe void. Yang penting adalah apakah fungsi tersebut mengembalikan nilai atau tidak. Jika mengembalikan nilai maka tidak pakai void, jika tidak mengembalikan nilai maka harus pake void
 2.  Bisa, dengan cara memindahkan kode untuk print menu yang ada fdi _function menu()_ ke function _main_
-
+3.  ada beberapa keuntungan yaitu
+    -   kode menjadi lebih rapi, karena setiap fitur diletakkan di _function_ terendiri
+    -   menghindari duplikasi kode, misal jika ingin memakai kode suatu fitur lebih dari satu, tidak perlu menulis ulang kode tersebut, kita hanya perlu memanggil kembali _function_ yang berkaitan
+    
 ---
