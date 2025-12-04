@@ -14,6 +14,6 @@
 ##  Jawaban
 
 1.  Tidak. Fungsi tanpa parameter tidak harus bertipe void. Yang penting adalah apakah fungsi tersebut mengembalikan nilai atau tidak. Jika mengembalikan nilai maka tidak pakai void, jika tidak mengembalikan nilai maka harus pake void
-2.  
+2.  Bisa, dengan cara memindahkan kode untuk print menu yang ada fdi _function menu()_ ke function _main_
 
 ---
