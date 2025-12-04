@@ -50,3 +50,22 @@
     -   fungsi parameter untuk menerima nilai dari luar fungsi, sedangkan variable untuk menyimpan data sementara di dalam program
 
 ---
+
+#   Percobaan 3 : Membuat Fungsi dengan Nilai Kembalian
+
+---
+
+##  Soal
+
+1.  Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh dari program kafe pada Percobaan 3 untuk masing-masing kasus.
+2.  Fungsi _hitungTotalHargaNoAbsen_ saat ini mengembalikan total harga berdasarkan _pilihanMenu_ dan _jumlahPesanan_. Sebutkan tipe data nilai kembalian dan dua buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing parameter dalam konteks program kafe.
+3.  Modifikasi kode di atas sehingga fungsi _hitungTotalHarga_ dapat menerima kodePromo. Jika kodePromo adalah "DISKON50", maka mendapat diskon 50% dari _totalHarga_ dan tampilkan diskon. Jika kodePromo adalah "DISKON30", maka mendapat diskon 30% dari _totalHarga_ dan tampilkan diskon. Jika tidak ada kode promo yang berlaku, tampilkan kode invalid dan tidak ada pengurangan total harga _totalHarga_.
+4.  Modifikasi kode di atas sehingga bisa memilih beberapa jenis menu berbeda serta menampilkan total keseluruhan pesanan. Bagaimana memodifikasi program sehingga pengguna dapat: memesan lebih dari satu jenis menu (misalnya menu 1 dan 3 sekaligus), dan menampilkan total keseluruhan pesanan (gabungan dari semua jenis menu)? 
+
+---
+
+##  Jawaban
+
+1.  Fungsi butuh nilai kembalian (return value) kalau fungsi harus menghasilkan suatu nilai dan nilai itu mau dipake lagi di luar fungsi, contohnya adalah fungsi _hitungTotalharga(parameter)_. Lalu fungsi tidak perlu return value (void) kalau fungsi cuma melakukan aksi (misal: print tampilan), bukan menghitung sesuatu, contoh adalah fungsi _Menu()_.
+
+---
