@@ -72,4 +72,30 @@
     -   int _jumlahPesanan_ adalah banyak item yang dipesan user untuk menu tersebut.
 3.  done✅
 4.  done✅
+
+---
+
+#   Percobaan 4 : Fungsi Varargs
+
+---
+
+##  Soal
+
+1.  Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan _String... namaPengunjung_!
+2. Modifikasi method _daftarPengunjung_ menggunakan _for-each_ loop.
+3. Bisakah menggunakan dua tipe data _varaargs_ dalam satu fungsi? Jelaskan jawaban
+Anda berdasarkan aturan _varargs_ di Java, dan berikan contohnya!
+4. Jelaskan apa yang terjadi jika fungsi _daftarPengunjung_ dipanggil tanpa argumen.
+Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan?
+Jika tetap berjalan, bagaimana output yang dihasilkan?
+
+---
+
+##  Jawaban
+
+1.  Karena menggunakan varargs (...), itu artinya:
+    -   method bisa nerima jumlah parameter yang fleksibel (boleh 1, 2, 10, bahkan 0 data sekaligus)
+    -   juga di dalam method, namaPengunjung otomatis dianggap array
+
+
 ---
