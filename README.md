@@ -179,4 +179,17 @@
         Volume Balok adalah: 60
     ```
 
+3.  alur:
+    -   _Jumlah(1,1)_ -> 2
+    -   _TampilJumlah(2,5)_ memanggil _Jumlah(2,5)_ -> 7
+    -   _TampilHinggaKei(7)_ mencetak _j_
+
+    output:
+
+    ```text
+        1234567
+    ```
+
+4.  
+
 ---
