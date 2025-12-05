@@ -190,6 +190,21 @@
         1234567
     ```
 
-4.  
+4.  Fungsi perlu parameter jika:
+    -   Butuh data dari luar supaya bisa bekerja.
+    -   Contoh: HitungLuas(p, l) → perlu panjang & lebar.
+
+    Fungsi boleh tanpa parameter jika:
+    -   Semua data sudah tersedia di dalam fungsi
+    -   Atau fungsi cuma menjalankan sesuatu tanpa butuh input
+    -   (contoh: print hiasan, reset layar, dsb.)
+
+    Kapan fungsi perlu nilai kembalian (return)?
+    -   Kalau fungsi menghasilkan nilai yang akan dipakai lagi
+    -   contoh: HitungVolume → hasilnya mau dipakai di main().
+
+    Kapan fungsi tidak perlu return?
+    -   Kalau fungsinya cuma melakukan aksi
+    -   contoh: menampilkan teks, mencetak menu, dsb.
 
 ---
