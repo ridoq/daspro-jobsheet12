@@ -82,12 +82,9 @@
 ##  Soal
 
 1.  Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan _String... namaPengunjung_!
-2. Modifikasi method _daftarPengunjung_ menggunakan _for-each_ loop.
-3. Bisakah menggunakan dua tipe data _varaargs_ dalam satu fungsi? Jelaskan jawaban
-Anda berdasarkan aturan _varargs_ di Java, dan berikan contohnya!
-4. Jelaskan apa yang terjadi jika fungsi _daftarPengunjung_ dipanggil tanpa argumen.
-Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan?
-Jika tetap berjalan, bagaimana output yang dihasilkan?
+2.  Modifikasi method _daftarPengunjung_ menggunakan _for-each_ loop.
+3.  Bisakah menggunakan dua tipe data _varaargs_ dalam satu fungsi? Jelaskan jawaban Anda berdasarkan aturan _varargs_ di Java, dan berikan contohnya!
+4.  Jelaskan apa yang terjadi jika fungsi _daftarPengunjung_ dipanggil tanpa argumen. Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan? Jika tetap berjalan, bagaimana output yang dihasilkan?
 
 ---
 
@@ -107,5 +104,64 @@ Jika tetap berjalan, bagaimana output yang dihasilkan?
     ```text
         Daftar Nama Pengunjung:
     ```
+
+---
+
+#   Percobaan 5 : Pembuatan Kode Program, dengan Fungsi versus Tanpa Fungsi
+
+---
+
+##  Soal
+
+1.  Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program dijalankan hingga menampilkan luas persegi panjang dan volume balok!
+2.  Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur jalannya program sampai output tersebut muncul.
+3.  Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program tersebut!
+
+    ```java
+        public class programKu{
+            public static void TampilHinggaKei(int i){
+                for(int j = 1; j <= i; j ++){
+                    System.out.print(j);
+                }
+            }
+
+            public static int Jumlah(int bil1, int bil2){
+                return (bil1 + bil2);
+            }
+
+            public static void TampilJumlah(int bil1, int bil2){
+                TampilHinggaKei(Jumlah(bil1, bil2));
+            }
+
+            public static void main(String[] args){
+                int temp = Jumlah(1, 1);
+                TampilJumlah(temp, 5)
+            }
+        }
+    ```
+
+4.  Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak? Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak? Jelaskan!
+5.  Jelaskan kapan sebuah fungsi sebaiknya menggunakan parameter dan kapan fungsi boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume di Percobaan 5.
+6.  Jelaskan kapan sebuah fungsi sebaiknya memiliki nilai kembalian (return value) dan kapan tidak perlu memiliki nilai kembalian, dengan mengacu pada fungsi main, hitungLuas, dan hitungVolume.
+
+---
+
+##  Jawaban
+
+1.  Urutan ketika program dijalankan:
+    -   Program masuk ke main()
+    -   Scanner dibuat.
+    -   _user_ input _p_, _l_, _t_
+    -   Program memanggil _HitungLuas(p, l)_
+    -   Masuk ke fungsi _HitungLuas_
+    -   (_HitungLuas_) Menghitung _L = p * l_
+    -   return _L_
+    -   Print _L_
+    -   Program memanggil _HitungVolume(t, p, l)_
+    -   Masuk ke fungsi _HitungVolume_
+    -   Di dalamnya, memanggil lagi _HitungLuas(a, b)_
+    -   hitung _volume = HitungLuas(a, b) * tinggi_
+    -   Print _vol_
+    -   Close Scanner dan program selesai
 
 ---
