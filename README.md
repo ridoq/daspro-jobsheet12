@@ -100,5 +100,12 @@ Jika tetap berjalan, bagaimana output yang dihasilkan?
 3.  Tidak bisa. Java hanya boleh 1 varargs per method. Kenapa?
     -   Varargs berubah menjadi array
     -   Jika ada dua varargs, Java bingung memetakan parameter mana yang masuk ke varargs A atau varargs B. Karena itu aturan resmi Java: "Hanya boleh 1 varargs, dan harus berada di posisi paling terakhir."
+4.  Tidak error. Program tetap berjalan normal. _Varargs_ nya kosong, dianggap array dengan panjang 0 (_namaPengunjung.length = 0_). Loop tidak masuk sama sekali
+
+    Jadi output yang akan tampil hanya headernya di dalam method aja:
+
+    ```text
+        Daftar Nama Pengunjung:
+    ```
 
 ---
