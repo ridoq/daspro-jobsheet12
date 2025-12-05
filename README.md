@@ -163,5 +163,20 @@
     -   hitung _volume = HitungLuas(a, b) * tinggi_
     -   Print _vol_
     -   Close Scanner dan program selesai
+2.  alur:
+    -   User isi 4, 3, 5
+    -   Program hitung luas -> 12
+    -   Program hitung volume -> 12 × 5 = 60
+    -   Keduanya dicetak.
+
+    output:
+
+    ```text
+        Masukkan panjang: 4
+        Masukkan lebar: 3
+        Masukkan tinggi: 5
+        Luas Persegi Panjang adalah: 12
+        Volume Balok adalah: 60
+    ```
 
 ---
