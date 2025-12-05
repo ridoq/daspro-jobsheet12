@@ -206,5 +206,12 @@
     Kapan fungsi tidak perlu return?
     -   Kalau fungsinya cuma melakukan aksi
     -   contoh: menampilkan teks, mencetak menu, dsb.
+5.  _HitungLuas(p,l)_ -> *BUTUH* parameter
+    -   Karena luas = hasil dari dua angka luar.
+    _HitungVolume(t, p, l)_ -> juga *BUTUH* parameter
+    -   Karena volume = luas × tinggi dan semua datanya dari luar.
+    
+    Kalau tanpa parameter?
+    -   Artinya fungsi sendiri yang menyediakan data → tidak cocok untuk fungsi perhitungan.
 
 ---
