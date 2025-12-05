@@ -96,6 +96,6 @@ Jika tetap berjalan, bagaimana output yang dihasilkan?
 1.  Karena menggunakan varargs (...), itu artinya:
     -   method bisa nerima jumlah parameter yang fleksibel (boleh 1, 2, 10, bahkan 0 data sekaligus)
     -   juga di dalam method, namaPengunjung otomatis dianggap array
-
+2.  done✅
 
 ---
