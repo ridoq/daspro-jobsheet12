@@ -97,5 +97,8 @@ Jika tetap berjalan, bagaimana output yang dihasilkan?
     -   method bisa nerima jumlah parameter yang fleksibel (boleh 1, 2, 10, bahkan 0 data sekaligus)
     -   juga di dalam method, namaPengunjung otomatis dianggap array
 2.  done✅
+3.  Tidak bisa. Java hanya boleh 1 varargs per method. Kenapa?
+    -   Varargs berubah menjadi array
+    -   Jika ada dua varargs, Java bingung memetakan parameter mana yang masuk ke varargs A atau varargs B. Karena itu aturan resmi Java: "Hanya boleh 1 varargs, dan harus berada di posisi paling terakhir."
 
 ---
