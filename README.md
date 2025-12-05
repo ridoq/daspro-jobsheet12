@@ -192,7 +192,7 @@
 
 4.  Fungsi perlu parameter jika:
     -   Butuh data dari luar supaya bisa bekerja.
-    -   Contoh: HitungLuas(p, l) → perlu panjang & lebar.
+    -   Contoh: HitungLuas(p, l) -> perlu panjang & lebar.
 
     Fungsi boleh tanpa parameter jika:
     -   Semua data sudah tersedia di dalam fungsi
@@ -201,7 +201,7 @@
 
     Kapan fungsi perlu nilai kembalian (return)?
     -   Kalau fungsi menghasilkan nilai yang akan dipakai lagi
-    -   contoh: HitungVolume → hasilnya mau dipakai di main().
+    -   contoh: HitungVolume -> hasilnya mau dipakai di main().
 
     Kapan fungsi tidak perlu return?
     -   Kalau fungsinya cuma melakukan aksi
@@ -212,6 +212,16 @@
     -   Karena volume = luas × tinggi dan semua datanya dari luar.
     
     Kalau tanpa parameter?
-    -   Artinya fungsi sendiri yang menyediakan data → tidak cocok untuk fungsi perhitungan.
+    -   Artinya fungsi sendiri yang menyediakan data -> tidak cocok untuk fungsi perhitungan.
+6.  _HitungLuas_ -> *perlu* return
+    -   Karena luasnya dipakai di:
+        -   output
+        -   perhitungan volume
+    _HitungVolume_ -> juga *perlu* return
+    -   Karena hasil volume harus ditampilkan.
+    sedangkan _main_ -> *tidak perlu* return
+    -   Karena:
+        -   main hanyalah pintu masuk program, bukan fungsi hitung
+        - main tugasnya mengatur alur, bukan menghasilkan nilai
 
 ---
